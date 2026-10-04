@@ -1,0 +1,183 @@
+
+
+ {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: auto;
+}
+
+body {
+    margin: 0;
+    background-color: #101010;
+    color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+}
+
+
+.cabecalho {
+    background-color: #050505;
+    border-bottom: 1px solid #333;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 16px;
+}
+
+.menu a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #a970d6;
+}
+
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.apresentacao {
+    text-align: center;
+    padding: 50px 0 30px;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto 30px;
+    border: 2px solid #333;
+}
+
+h1 {
+    margin: 0 0 15px;
+    color: #ffffff;
+    font-size: 42px;
+}
+
+.apresentacao p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+.sumario {
+    max-width: 500px;
+    margin: 30px auto 60px;
+    padding: 25px;
+    text-align: center;
+    background-color: #181818;
+    border: 1px solid #333;
+}
+
+h2 {
+    color: #a970d6;
+    text-align: center;
+    margin-top: 0;
+}
+
+.sumario-lista {
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    padding-left: 25px;
+}
+
+.sumario-lista a {
+    color: #d6a9f0;
+}
+
+
+.conteudo {
+    margin-bottom: 70px;
+    padding: 30px;
+    background-color: #151515;
+    border-left: 3px solid #6f3f8f;
+}
+
+.conteudo h2 {
+    margin-bottom: 25px;
+}
+
+.conteudo p {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+a {
+    color: #c58ee5;
+}
+
+a:hover {
+    color: #e0c1f2;
+}
+
+
+
+.rodape {
+    margin-top: 80px;
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 1px solid #333;
+    background-color: #080808;
+}
+
+.rodape p {
+    margin: 12px 0;
+}
+
+.rodape a {
+    text-decoration: none;
+}
+
+.instagram-logo {
+    width: 32px;
+    height: 32px;
+    margin-top: 5px;
+}
+
+
+@media (max-width: 600px) {
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    main {
+        width: 92%;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .apresentacao {
+        padding-top: 35px;
+    }
+
+    .conteudo {
+        padding: 20px;
+    }
+
+    .conteudo p {
+        text-align: left;
+    }
+}

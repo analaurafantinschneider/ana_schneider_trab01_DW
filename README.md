@@ -1,1 +1,0 @@
-# ana_schneider_trab01_DW
